@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Demo_Sep_Move_Marketing">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#CategoryMovement"/>
+    <rdfs:label xml:lang="id">[DEMO] Marketing Sep 2026</rdfs:label>
+    <hasCategoryName>Marketing</hasCategoryName>
+    <hasCategoryAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6500000.0</hasCategoryAmount>
+    <hasCategoryGrowth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.625</hasCategoryGrowth>
+    <hasProfitContribution rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-2500000.0</hasProfitContribution>
+    <hasContributionRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hasContributionRank>
+    <isTopContributor rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isTopContributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Demo_State_2026_09">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#MonthlyFinancialState"/>
+    <rdfs:label xml:lang="id">[DEMO] Kondisi September 2026</rdfs:label>
+    <forPeriod rdf:resource="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Demo_Period_2026_09"/>
+    <comparedWith rdf:resource="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Demo_State_2026_08"/>
+    <hasDataQuality rdf:resource="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Data_Complete"/>
+    <hasRevenueGrowth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.111111</hasRevenueGrowth>
+    <hasCOGSGrowth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.223684</hasCOGSGrowth>
+    <hasOPEXGrowth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.066667</hasOPEXGrowth>
+    <hasMarketingGrowth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.625</hasMarketingGrowth>
+    <hasGrossMargin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.535</hasGrossMargin>
+    <hasGrossMarginLowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.56</hasGrossMarginLowerBound>
+    <hasNetProfit rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14000000.0</hasNetProfit>
+    <hasNetMargin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.14</hasNetMargin>
+    <hasNetMarginLowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.17</hasNetMarginLowerBound>
+    <hasOperatingCashFlow rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15000000.0</hasOperatingCashFlow>
+    <hasChangeInCash rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-7000000.0</hasChangeInCash>
+    <hasEndingCash rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23000000</hasEndingCash>
+    <hasOwnerDrawAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8000000</hasOwnerDrawAmount>
+    <hasPreviousOwnerDrawAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3000000</hasPreviousOwnerDrawAmount>
+    <hasCapexAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12000000</hasCapexAmount>
+    <hasLoanPrincipalPaid rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2000000</hasLoanPrincipalPaid>
+    <hasCashRunwayMonths rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.875</hasCashRunwayMonths>
+    <hasRunwayMinimumMonths rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</hasRunwayMinimumMonths>
+    <hasIndicator rdf:resource="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Demo_Sep_Revenue"/>
+    <hasIndicator rdf:resource="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Demo_Sep_COGS"/>
+    <hasIndicator rdf:resource="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Demo_Sep_OPEX"/>
+    <hasIndicator rdf:resource="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Demo_Sep_Marketing"/>
+    <hasIndicator rdf:resource="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Demo_Sep_Depreciation"/>
+    <hasIndicator rdf:resource="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Demo_Sep_NetProfit"/>
+    <hasCategoryMovement rdf:resource="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Demo_Sep_Move_COGS"/>
+    <hasCategoryMovement rdf:resource="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Demo_Sep_Move_Marketing"/>
+    <hasCategoryMovement rdf:resource="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Demo_Sep_Move_OPEX"/>
+    <hasDiagnosis rdf:resource="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Demo_Sep_Diagnosis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Demo_Sep_Explanation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Explanation"/>
+    <rdfs:comment>Reasoning path: GrossMarginDecline + COGSGrowthExceedsRevenue -&gt; MarginPressure</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Demo_Sep_Advisory">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Advisory"/>
+    <hasAdvisoryText>Periksa harga bahan dari supplier, bahan terbuang, dan komposisi penjualan; tinjau hasil promosi; periksa pengambilan prive, pembelian fasilitas, dan cicilan.</hasAdvisoryText>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Demo_Period_2026_08">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Period"/>
+    <rdfs:label xml:lang="id">[DEMO] Agustus 2026</rdfs:label>
+    <hasPeriodStart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-08-01</hasPeriodStart>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Demo_State_2026_08">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#MonthlyFinancialState"/>
+    <rdfs:label xml:lang="id">[DEMO] Kondisi Agustus 2026</rdfs:label>
+    <forPeriod rdf:resource="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Demo_Period_2026_08"/>
+    <hasDataQuality rdf:resource="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Data_Complete"/>
+    <hasRevenueGrowth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.05</hasRevenueGrowth>
+    <hasCOGSGrowth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.04</hasCOGSGrowth>
+    <hasOPEXGrowth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.02</hasOPEXGrowth>
+    <hasMarketingGrowth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</hasMarketingGrowth>
+    <hasGrossMargin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.577778</hasGrossMargin>
+    <hasGrossMarginLowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.56</hasGrossMarginLowerBound>
+    <hasNetProfit rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17000000</hasNetProfit>
+    <hasNetMargin rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.188889</hasNetMargin>
+    <hasNetMarginLowerBound rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.17</hasNetMarginLowerBound>
+    <hasOperatingCashFlow rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18000000</hasOperatingCashFlow>
+    <hasChangeInCash rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13000000</hasChangeInCash>
+    <hasEndingCash rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30000000</hasEndingCash>
+    <hasOwnerDrawAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3000000</hasOwnerDrawAmount>
+    <hasPreviousOwnerDrawAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3000000</hasPreviousOwnerDrawAmount>
+    <hasCapexAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</hasCapexAmount>
+    <hasLoanPrincipalPaid rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2000000</hasLoanPrincipalPaid>
+    <hasCashRunwayMonths rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.75</hasCashRunwayMonths>
+    <hasRunwayMinimumMonths rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</hasRunwayMinimumMonths>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Demo_Sep_Move_COGS">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#CategoryMovement"/>
+    <rdfs:label xml:lang="id">[DEMO] COGS Sep 2026</rdfs:label>
+    <hasCategoryName>COGS</hasCategoryName>
+    <hasCategoryAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">46500000.0</hasCategoryAmount>
+    <hasCategoryGrowth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.223684</hasCategoryGrowth>
+    <hasProfitContribution rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-8500000.0</hasProfitContribution>
+    <hasContributionRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasContributionRank>
+    <isTopContributor rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isTopContributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Demo_Sep_Depreciation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#DepreciationExpense"/>
+    <rdfs:label xml:lang="id">[DEMO] Depreciation Sep 2026</rdfs:label>
+    <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1000000</hasAmount>
+    <hasPeriodLabel>2026-09</hasPeriodLabel>
+    <hasSource>demo data</hasSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Demo_Sep_OPEX">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#FixedOPEX"/>
+    <rdfs:label xml:lang="id">[DEMO] OPEX Sep 2026</rdfs:label>
+    <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32000000</hasAmount>
+    <hasPeriodLabel>2026-09</hasPeriodLabel>
+    <hasSource>demo data</hasSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Demo_Period_2026_09">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Period"/>
+    <rdfs:label xml:lang="id">[DEMO] September 2026</rdfs:label>
+    <previousPeriod rdf:resource="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Demo_Period_2026_08"/>
+    <hasPeriodStart rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-01</hasPeriodStart>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Demo_Sep_Move_OPEX">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#CategoryMovement"/>
+    <rdfs:label xml:lang="id">[DEMO] OPEX (non-marketing) Sep 2026</rdfs:label>
+    <hasCategoryName>OPEX (non-marketing)</hasCategoryName>
+    <hasCategoryAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32000000</hasCategoryAmount>
+    <hasCategoryGrowth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.066667</hasCategoryGrowth>
+    <hasProfitContribution rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-2000000</hasProfitContribution>
+    <hasContributionRank rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</hasContributionRank>
+    <isTopContributor rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</isTopContributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Demo_Sep_COGS">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#COGS"/>
+    <rdfs:label xml:lang="id">[DEMO] COGS Sep 2026</rdfs:label>
+    <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">46500000.0</hasAmount>
+    <hasPeriodLabel>2026-09</hasPeriodLabel>
+    <hasSource>demo data</hasSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Demo_WarkopKusuma">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Business"/>
+    <rdfs:label xml:lang="id">[DEMO] Warkop Kusuma</rdfs:label>
+    <hasState rdf:resource="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Demo_State_2026_08"/>
+    <hasState rdf:resource="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Demo_State_2026_09"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Demo_Sep_NetProfit">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#NetProfit"/>
+    <rdfs:label xml:lang="id">[DEMO] NetProfit Sep 2026</rdfs:label>
+    <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14000000.0</hasAmount>
+    <hasPeriodLabel>2026-09</hasPeriodLabel>
+    <hasSource>demo data</hasSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Demo_Sep_Diagnosis">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#FinancialDiagnosis"/>
+    <rdfs:label xml:lang="id">[DEMO] Diagnosis September 2026</rdfs:label>
+    <hasDiagnosisMessage>Omzet naik 11,1% tetapi untung bersih turun dari Rp17 juta ke Rp14 juta. Biaya bahan (COGS) naik 22,4%, lebih cepat dari omzet, sehingga margin kotor turun di bawah kebiasaan usaha ini; promosi juga naik 62,5%. Kenaikan harga bahan atau pergeseran produk yang terjual perlu dicek karena sistem belum membedakan keduanya. Kas turun Rp7 juta walau untung positif karena pembelian fasilitas Rp12 juta, prive Rp8 juta, dan cicilan pokok Rp2 juta.</hasDiagnosisMessage>
+    <hasConfidenceNote>Indikasi dari data yang dicatat; bukan nasihat keuangan resmi.</hasConfidenceNote>
+    <derivedFrom rdf:resource="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Demo_Sep_NetProfit"/>
+    <hasExplanation rdf:resource="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Demo_Sep_Explanation"/>
+    <hasAdvisory rdf:resource="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Demo_Sep_Advisory"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system-demo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <owl:imports rdf:resource="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Demo_Sep_Revenue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Revenue"/>
+    <rdfs:label xml:lang="id">[DEMO] Revenue Sep 2026</rdfs:label>
+    <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">100000000</hasAmount>
+    <hasPeriodLabel>2026-09</hasPeriodLabel>
+    <hasSource>demo data</hasSource>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#Demo_Sep_Marketing">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/otniel/ontologies/2026/9/financial-health-expert-system#MarketingOPEX"/>
+    <rdfs:label xml:lang="id">[DEMO] Marketing Sep 2026</rdfs:label>
+    <hasAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6500000.0</hasAmount>
+    <hasPeriodLabel>2026-09</hasPeriodLabel>
+    <hasSource>demo data</hasSource>
+  </rdf:Description>
+</rdf:RDF>
